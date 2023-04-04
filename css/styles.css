@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@700&display=swap');
+body{
+    font-family:"Montserrat";
+    background-color: #ff4c68;
+
+}
+.navbar{
+    color:#fff;
+    padding:0 0 4.5rem;
+}
+#nav-title{
+    color:white;
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-subtitles{
+    color:white;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 3% 7% 10% 7%;
+}
+
+
+.big-heading{
+    font-family:"Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family:"Montserrat";
+    font-weight: 700;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.download-button{
+    margin: 0% 5% 3% 0%;
+}
+
+.title-img{
+    width:60%;
+    transform: rotate(20deg);
+    position: absolute;
+    }
+@media(max-width: 1020px){
+    .title-img{
+        width:60%;
+        position: static;
+        transform: rotate(0deg);
+        }
+    #title{
+        text-align:center;
+    }
+}
+
+#features{
+    background-color: #fff;
+    padding:7% 15%;
+
+    position:relative;
+}
+.features-container{
+    justify-content: center;
+}
+.feature-container{
+    text-align: center;
+    padding: 3%;
+}
+.icon{
+    color:#ef8172;
+    padding-bottom: 3%;
+
+}
+.icon:hover{
+    color:#ff4c68;
+}
+p{
+    color:grey;
+}
+
+#testimonials{
+    background-color:#ef8172;
+    color:white;
+    text-align:center;
+}
+.testimonial-img{
+    border-radius:100%;
+    width:60px;
+    margin:40px;
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#press{
+    background-color:#ef8172;
+    padding-bottom:3%;
+    text-align:center;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    background-color:white;
+    padding:3%;
+}
+#slogan{
+padding: 3% 0%;
+}
+
+#cta{
+    background-color:#ff4c68;
+}
+.cta{
+    padding:5%;
+    text-align: center;
+
+}
+
+h3{
+    font-weight:700;
+    color:white;
+    padding-bottom:20px;
+}
+.footer-cont{
+    background-color:#fff;
+    text-align: center;
+    padding: 3%;
+
+}
+.foot-icon{
+    margin:1%;
+    margin-bottom: 30px;
+}
+
