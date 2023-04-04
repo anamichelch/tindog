@@ -52,6 +52,7 @@ h2{
     transform: rotate(20deg);
     position: absolute;
     }
+
 @media(max-width: 1020px){
     .title-img{
         width:60%;
@@ -66,7 +67,7 @@ h2{
 #features{
     background-color: #fff;
     padding:7% 15%;
-
+    color:black;
     position:relative;
 }
 .features-container{
@@ -130,8 +131,11 @@ padding: 3% 0%;
 
 h3{
     font-weight:700;
-    color:white;
+    color:black;
     padding-bottom:20px;
+}
+#closing-tag{
+    color:white;
 }
 .footer-cont{
     background-color:#fff;
